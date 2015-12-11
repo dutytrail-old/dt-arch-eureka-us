@@ -1,0 +1,19 @@
+server:
+  port: ${PORT:8761}
+
+security:
+  user:
+    password: ${eureka.password}
+
+profiles:
+  active: ${ARCH_ENV:peer}
+
+eureka:
+  instance:
+    hostname: ${APP_NAME}.herokuapp.com
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_PEER_URL}/eureka/
+  password: ${EUREKA_USER_PASSWORD:password}
