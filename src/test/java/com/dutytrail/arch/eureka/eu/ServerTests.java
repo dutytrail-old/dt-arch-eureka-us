@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.Map;
 
-import com.thomsonreuters.arch.eureka.us.EurekaUS;
+import com.dutytrail.arch.eureka.us.EurekaUS;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Value;

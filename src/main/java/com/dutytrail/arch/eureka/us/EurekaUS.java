@@ -1,4 +1,4 @@
-package com.thomsonreuters.arch.eureka.us;
+package com.dutytrail.arch.eureka.us;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
