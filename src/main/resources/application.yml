@@ -6,7 +6,7 @@ profiles:
 
 eureka:
   instance:
-    hostname: ${APP_NAME}.herokuapp.com
+    hostname: ${DOMAIN:localhost}
   client:
     registerWithEureka: true
     fetchRegistry: true
